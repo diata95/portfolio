@@ -1,0 +1,70 @@
+<?php session_start();
+$x = 1;
+$_SESSION["nom"] = "Toto";
+?>
+
+<!DOCTYPE html>
+ 
+<html lang="en" dir="ltr" ><head>
+	 <meta charset="utf-8">
+	 <title>Menu</title>
+	 <link rel="stylesheet" href="page1_menu.css">
+</head>	
+<body>
+	
+	
+	
+<div id="menu">
+   
+    <nav class="main-navigation">
+        <div class="nav-menu">
+            <ul>
+                <li ><a href="page2_article.html">Rédiger un article</a></li></br>
+                
+                
+                <li ><a href="page1_menu.html">Mes articles</a>
+                    <ul class='children'>
+                        <li><a href="page1_menu.html">Sport</a></li>
+                        <li><a href="page1_menu.html">Economie</a></li>
+                        <li><a href="page1_menu.html">Politique</a></li>
+                        <li><a href="page1_menu.html">Divertissement</a></li>
+                        <li><a href="page1_menu.html">Santé</a></li>
+                        <li><a href="page1_menu.html">Sciences</a></li>
+                        <li><a href="./senegal.html"> Culture</a></li>
+                        <ul>
+                            <li>
+                                <a href="./senegal.html">Sénégal</a>
+                            </li>
+                        </ul>
+                    </ul>
+                </li></br>
+                
+                <li>
+					
+                    <a href="presentation.html">Qui suis-je? : </a></br>
+                    
+                </li>
+                
+                <li>
+					<a href="page1_menu.html">contacts</a>
+                    <ul class='children'>
+                        <li><?php echo $_POST['titre']; ?> </li>
+                    </ul>
+                </li>
+                
+                <li>
+                    <a href="./commentaires.html">Commentaires</a>
+                    
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <p>Viens découvrir la culture sénégalaise.</p>
+    
+     <a href="./senegal.html">
+        <input type="submit"  name=""  value="Découvrir!">
+     </a>
+</div>
+
+</body>
+</html>

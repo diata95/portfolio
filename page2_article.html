@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset= "utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rédiger un article </title>
+	
+	<link rel= "stylesheet" href="./page2_article.css">
+	
+	
+</head>
+
+<body>
+
+<h1>VOTRE ARTICLE</h1>	
+<p>
+ <label for="titre">Indiquez le titre de l'article</label> : <input type="text" name="titre" id="pseudo" />
+</p>
+     
+			
+<p>Quelle est la catégorie de votre article?</p>
+	
+	<select name="categorie">
+	
+		<option> Sciences < /option>
+		<option>sport </option> 
+		<option>politique</option>
+		<option>divertissement</option>
+    <option>santé</option>
+    <option>Economie</option>
+	</select><br />
+  
+<p>Veuillez rédiger votre article dans la zone de texte</p>
+  <textarea rows="20" cols="70" wrap="physique" name="redaction">
+     
+     </textarea>
+     <br />
+<label for="appt">Date et heure de publication de l'article</label>
+
+<input type="time" id="appt" name="appt" required>
+<input type="date" id="start" name="tripStart"
+       value="2018-07-22">
+
+<input type="hidden" name="MAX_FILE_SIZE" value="100" /> <input name="file" type="file" /><br>
+<a href="./publication.html"> 
+  <input type="submit" name="" value="Enregistrer" >
+</a>
+  
+  
+  </body>
+  </html>

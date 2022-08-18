@@ -1,0 +1,119 @@
+.box h1{
+    color:#ded3c9;
+    text-transform: uppercase;
+    font-weight:500;
+    background-image: url("télécharger.jpg");
+    display: inline-block;
+    
+    }
+ 
+ 
+ body{
+    margin : 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #492c09 ;
+    }
+  .box h1{
+    color:#9b928a;
+    text-transform: uppercase;
+    font-weight:500;
+    display: inline-block;
+    
+    }
+ 
+ 
+ .navbar {
+     background-color: #52BE80;
+     margin: 0 auto;
+     max-width: #BB7635;
+     width: 100%;
+     display: inline-block;
+ }
+ 
+  
+  
+ .main-navigation {
+     clear: both;
+     margin: 0 auto;
+     max-width: 1080px;
+     min-height: 45px;
+     display: inline-block;
+ }
+  
+  
+ ul.nav-menu,
+ div.nav-menu > ul {
+     margin: 0;
+     padding: 0 40px 0 0;
+     display: inline-block;
+ }
+  
+ .nav-menu li {
+     display: inline-block;
+     position: relative;
+     display: inline-block;
+ }
+  
+ .nav-menu li a {
+     color:#FFC793 ;
+     display: block;
+     font-size: 15px;
+     line-height: 1;
+     padding: 15px 20px;
+     text-decoration: none;
+     display: inline-block;
+ }
+  
+ .nav-menu li:hover > a,
+ .nav-menu li a:hover,
+ .nav-menu li:focus > a,
+ .nav-menu li a:focus {
+     background-color: #220e10;
+     color: #fff;
+     display: inline-block;
+ }
+  
+ .nav-menu .children {
+     background-color: #220e10;
+     border: 2px solid #f7f5e7;
+     border-top: 0;
+     padding: 0;
+     position: absolute;
+     left: -2px;
+     z-index: 99999;
+     height: 1px;
+     width: 1px;
+     overflow: hidden;
+     clip: rect(1px, 1px, 1px, 1px);
+     display: inline-block;
+ }
+  
+ ul.nav-menu ul a,
+ .nav-menu ul ul a {
+     color: #FFC793 ;
+     margin: 0;
+     width: 200px;
+     display: inline-block;
+ }
+  
+ ul.nav-menu ul a:hover, /*hover sert a mettre en couleur la case sous la souris */
+ .nav-menu ul ul a:hover,
+ ul.nav-menu ul a:focus,
+ .nav-menu ul ul a:focus {
+     background-color: #db572f;
+     display: inline-block;
+ }
+  
+ ul.nav-menu li:hover > ul,
+ .nav-menu ul li:hover > ul,
+ ul.nav-menu .focus > ul,
+ .nav-menu .focus > ul {
+     clip: inherit;
+     overflow: inherit;
+     height: inherit;
+     width: inherit;
+     display: inline-block;
+ }
+ 
+ 

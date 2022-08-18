@@ -1,0 +1,20 @@
+body {
+    color: rgb(253, 255, 255);
+    background-color: rgb(19, 134, 125);
+    font-size: medium;
+    text-align: center;
+  }
+  
+  h1 {
+    color: rgb(246, 244, 244);
+    font-size: medium;
+    font-style: normal;
+    text-align:center
+    
+  }
+
+  h2{
+    font-size: medium;
+    color:black
+    text-align: center;
+  }
